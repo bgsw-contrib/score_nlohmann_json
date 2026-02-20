@@ -5,17 +5,31 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
+### [#5074](https://github.com/nlohmann/json/issues/5074)
+- **Title:** Copy constructor changes semantics
+- **State:** OPEN
+- **Created At:** 2026-02-09T10:39:05Z
+
+
+
+### [#5068](https://github.com/nlohmann/json/issues/5068)
+- **Title:** Using json_pointer causes the warning of deprecated declarations
+- **State:** OPEN
+- **Created At:** 2026-02-04T04:05:50Z
+
+
+
+### [#5066](https://github.com/nlohmann/json/issues/5066)
+- **Title:** MSVC: unexpected behaviour converting from json to a rvalue reference of a variant containing a type that can be constructed from a string
+- **State:** OPEN
+- **Created At:** 2026-01-30T13:18:53Z
+
+
+
 ### [#5048](https://github.com/nlohmann/json/issues/5048)
 - **Title:** function argument safety check silently optimized out in release build by clang
 - **State:** OPEN
 - **Created At:** 2026-01-07T22:27:57Z
-
-
-
-### [#5047](https://github.com/nlohmann/json/issues/5047)
-- **Title:** [C++23] Error in json::parse with std::ifstream
-- **State:** OPEN
-- **Created At:** 2026-01-07T07:43:37Z
 
 
 
@@ -237,6 +251,20 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 ## Closed Issues (since version 3.12.0)
+
+### [#5060](https://github.com/nlohmann/json/issues/5060)
+- **Title:** Segfault on x86_64 Android with Chromium libc++ in serializer::~serializer()
+- **State:** CLOSED
+- **Created At:** 2026-01-24T10:41:51Z
+
+
+
+### [#5047](https://github.com/nlohmann/json/issues/5047)
+- **Title:** [C++23] Error in json::parse with std::ifstream
+- **State:** CLOSED
+- **Created At:** 2026-01-07T07:43:37Z
+
+
 
 ### [#5046](https://github.com/nlohmann/json/issues/5046)
 - **Title:** implicit conversion of return json to std::optional no longer implicit
